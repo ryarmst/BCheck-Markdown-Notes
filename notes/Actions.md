@@ -1,7 +1,7 @@
 ---
 title: Actions
 created: 2023-06-30T01:00:57.419Z
-modified: 2023-06-30T01:12:03.956Z
+modified: 2023-07-04T12:22:17.053Z
 ---
 
 # Actions
@@ -71,7 +71,7 @@ Reports an issue. WARNING: reporting an issue will terminate the BCheck even if 
 ```
 report issue:
   severity: # `[info|low|medium|high]`
-  confidence: # `[info|low|medium|high]`
+  confidence: # `[certain|firm|tentative]`
   remediation:
   detail:
 ```
